@@ -27,7 +27,7 @@ const App = () => {
      
        
 
-          <div className="bg-white text-red-900">hello world </div>
+          <div className="bg-white c-space  transition-colors text-red-900">hello world </div>
         
      
   )
