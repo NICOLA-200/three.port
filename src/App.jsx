@@ -3,6 +3,7 @@ import { OrbitControls } from "@react-three/drei"
 import {useRef}  from 'react'
 import Navbar from "./sections/Navbar"
 import Hero from "./sections/Hero"
+import About from "./sections/About"
 
 
 // const RotatingCube = () => {
@@ -29,6 +30,7 @@ const App = () => {
     <main className="max-w-7xl mx-auto relative">
       <Navbar />
       <Hero />
+      <About />
       </main>
   )
 }
