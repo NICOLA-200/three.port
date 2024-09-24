@@ -20,18 +20,24 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // 
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        'service_wemzu0a',
+        'template_blmmtcn',
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'NSENGIYUMVA NICOLA',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'fatepepe66@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        'pm03GCGg8M2bs5aQ5',
+
       )
       .then(
         () => {
